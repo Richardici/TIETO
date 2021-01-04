@@ -1,0 +1,22 @@
+[
+	{"ipAddress": "100.22.1.0",
+	 "links": 3,
+	 "name": "Router1",
+	 "connectedTo": []
+	},
+	{"ipAddress": "100.21.1.0",
+	 "links": 3,
+	 "name": "Router2",
+	 "connectedTo": ["Router3, Router1"]
+	},
+	{"ipAddress": "100.25.1.0",
+	 "links": 3,
+	 "name": "Router3",
+	 "connectedTo": [ "Router1"]
+	},
+	{"ipAddress": "100.26.1.0",
+	 "links": 1,
+	 "name": "Router4",
+	 "connectedTo": [ "Router1"]
+	}
+ ]
